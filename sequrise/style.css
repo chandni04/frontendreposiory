@@ -1,0 +1,48 @@
+body {
+    background-color:black;
+    color: white;
+}
+.red{
+   background:rgb(212, 32, 32);
+   padding: 5px 15px; 
+   font-size: 14px;
+   }
+.green{
+    background:yellowgreen;
+    padding: 5px 15px; 
+    font-size: 14px;
+    }
+ .yellow{
+    background:#d58512;
+    padding: 5px 15px; 
+    font-size: 14px;
+    }
+.grey{
+     background:#666666;
+     padding: 5px 15px; 
+     font-size: 14px;
+     color: white;
+     }
+            width-150px{
+                width: 80px;  
+            }
+
+.grey_color {
+    color:grey;
+    font-size: 20px;
+}
+.black {
+    background-color: black;
+    border: none;
+}          
+.dropdown
+{
+    positon: absolute;
+}
+.btn:hover {
+
+}
+
+.noHover{
+    pointer-events: none;
+}
