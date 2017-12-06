@@ -1,6 +1,7 @@
 body {
-    background-color:black;
+    background-color:#000000;
     color: white;
+    overflow-x: hidden;    
 }
 .red{
    background:rgb(212, 32, 32);
@@ -21,17 +22,24 @@ body {
      background:#666666;
      padding: 5px 15px; 
      font-size: 14px;
-     color: white;
+     color:white;
      }
             width-150px{
                 width: 80px;  
             }
 
-.grey_color {
+.grey_btn {
     color:grey;
     font-size: 20px;
 }
-.black {
+.grey_background {
+    background: grey;
+    color: white;
+}
+.username:hover{
+    color: white;
+}
+.black_background {
     background-color: black;
     border: none;
 }          
@@ -39,10 +47,29 @@ body {
 {
     positon: absolute;
 }
-.btn:hover {
+.noHover{
+    pointer-events: none;
+}
+.blue-button
+{
+     width :226px;
+
+}
+.spacebutton
+{
+    margin-bottom: 10px; 
+}
+.verticalbutton
+{
 
 }
 
-.noHover{
-    pointer-events: none;
+
+.col-md-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 50px;
+    width: 20%;
+    margin-bottom: 7px;
 }

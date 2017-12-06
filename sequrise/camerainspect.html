@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>username</title>
+    <title>camerainspect</title>
 </head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,23 +11,92 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="D:\frontendreposiory\sequrise\style.css">
+
 <body>
-    <div class="dropdown"style="float:right;color: grey;">
-        <button class=" username btn btn-primary dropdown-toggle " type="button" data-toggle="dropdown">User-name
-        <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="#">configration</a></li>
-          <li><a href="#">report</a></li>
-          <li><a href="#">logout</a></li>
+    <div class="dropdown" style="float:right;color: grey;">
+        <button class=" username btn grey_background dropdown-toggle" type="button" data-toggle="dropdown">User-name
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu grey_background">
+            <li class="white_text">
+                <a href="#">configration</a>
+            </li>
+            <li>
+                <a href="#">report</a>
+            </li>
+            <li>
+                <a href="#">logout</a>
+            </li>
         </ul>
-      </div>
     </div>
-<h1>Secqurise</h1>
-</div>
-<div class="container"style="float:left">
-<button type="button" class="grey width-150px btn noHover">3(100)</button>
-<button type="button" class="green width-150px btn noHover">3(100)</button>
-<button type="button" class="yellow width-150px btn noHover">2(456)</button>
-<button type="button" class="red width-150px btn noHover">0</button> 
-  </div>
-  </div>
+    </div>
+    <h1>Secqurise</h1>
+    <!-- top header with buttons & search bar -->
+    <div class="container-fluid row">
+        <!-- buttons -->
+        <div>
+            <div class="containe-fluid" style="float:left">
+                <button type="button" class="grey width-150px btn noHover">3(100)</button>
+                <button type="button" class="green width-150px btn noHover">3(100)</button>
+                <button type="button" class="yellow width-150px btn noHover">2(456)</button>
+                <button type="button" class="red width-150px btn noHover">0</button>
+            </div>
+            <!-- buttons end -->
+            <!-- search bar -->
+            <div class="container-fluid col-md-3 pull-right" style="padding: 0px;">
+                <form action="navbar-form navbar-right" class="search-form">
+                    <div class="input-group add-on">
+                        <input class="form-control black_background" name="srch-term" id="srch-term" type="text">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default black_background" type="submit">
+                                <i class="glyphicon glyphicon-search grey_btn"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- search bar ends -->
+        </div>
+    </div>
+    <!-- top header with buttons & search bar ends -->
+    
+    <!-- main content div -->
+    <div class="container-fluid row" style=" padding: 0px; margin: 0px;">
+        <!-- Event snapshot -->
+        <div class="col-md-10" style=" padding: 0px; margin: 0px;">
+            <img src="http://www.intrawallpaper.com/static/images/HD-Wallpapers-C76.jpg"class="img-responsive" height="500" width="1135" />
+        </div>
+        <!-- Event snapshot ends -->
+
+        <!-- action buttons -->
+        <div class="col-md-2" style=" padding: 0px; margin: 0px;">
+            <div>
+                <button class="btn btn-primary blue-button spacebutton">Event Video</button>
+            </div>
+            <div>
+                <button class="btn btn-primary blue-button spacebutton">Live Video </button>
+            </div>
+            <div>
+            <button class="btn btn-primary blue-button spacebutton">Assign</button>
+             </div>
+             <div>
+            <button class="btn btn-primary blue-button spacebutton">Escalae</button>
+            </div>
+            <div>
+            <button class="btn btn-primary blue-button spacebutton">Share</button>
+            </div>
+            <div>
+            <button class="btn btn-primary blue-button spacebutton">Close</button>
+            <div>
+            </div>
+            <div>
+            <button class="btn btn-primary blue-button spacebutton">Feedback</button>
+            </div>
+
+        </div>
+        <!-- action buttons ends -->
+    </div> 
+  
+</body>
+
+</html>
